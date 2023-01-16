@@ -6,31 +6,30 @@ PC
 Anaconda - Python 3.7
 ## Algorithm: 
 ### Step 1: 
-get input from user 
+Import def circulate.
 ### Step 2: 
-use the variables to name the input 
+Prepare the lists from each linear equations and assign in np.array()
 ### Step 3: 
 Get the value from the user for the number of rotation
 ### Step 4: 
 Using the slicing concept rotate the list
-
 ### Step 5:
-shanmathi.s 
+Add coding to the input value
 ### Step 6:
-shanmugam 
+Print the coding to get answer.
 ## Program:
 ```python
 #Program to swap two values.
 #Developed by: S.Shanmathi
 #RegisterNumber:22003171
-A=float(input())
-B=float(input())
-temp=A
-A=B
-B=temp
-print("Swapped values are:",A,B)
+def circulate():
+    a=eval(input())
+    n=int(input())
+    l=a[n: ]+a[ :n]
+    print("After circulating the values are:",l)
 ```
 
 ## Output:
-![output](Screenshot(23).png)
+![OUTPUT](1b.png)
 ## Result:
+Thus circulating the values of N variables using fusion concept successfully executed
